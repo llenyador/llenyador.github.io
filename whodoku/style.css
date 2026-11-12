@@ -266,7 +266,8 @@ tr + tr td { border-top: 1px dashed var(--muted); }
 /* ---------- Home ---------- */
 .split { display: grid; grid-template-columns: 1fr; gap: 28px; align-items: center; }
 .shot { max-width: 320px; margin: 0 auto; }
-.shot img { display: block; width: 100%; height: auto; }
+/* The store screenshot without its caption: keep the phone, crop the top 22% (caption band). */
+.shot img { display: block; width: 100%; height: auto; aspect-ratio: 460 / 780; object-fit: cover; object-position: bottom; }
 .hero-body.split { padding-bottom: 0; }
 .hero-body.split > div:first-child { padding-bottom: 32px; }
 .cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
