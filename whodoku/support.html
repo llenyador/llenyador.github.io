@@ -5,37 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Whodoku Support</title>
   <meta name="description" content="Help and contact for Murder Sudoku: Whodoku on iOS and Android.">
+  <meta name="theme-color" content="#2f6a66">
   <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="shell">
-    <nav>
-      <a class="brand" href="./"><img src="icon.png" alt="">Whodoku</a>
-      <div class="links">
-        <a href="support.html" aria-current="page">Support</a>
-        <a href="privacy.html">Privacy</a>
+  <div class="hero teal">
+    <div class="wrap">
+      <div class="topbar">
+        <a class="brand" href="./"><img src="icon.png" alt="">Whodoku</a>
+        <nav class="tabs" aria-label="Pages">
+          <a class="tab" href="support.html" aria-current="page">Support</a>
+          <a class="tab" href="privacy.html">Privacy</a>
+        </nav>
       </div>
-    </nav>
-
-    <header>
-      <p class="eyebrow">Murder Sudoku: Whodoku</p>
-      <h1>Support</h1>
-      <p class="lede">Stuck on a case, missing a purchase or found a bug? Answers to common questions are below. If
-      yours isn't there, write to us.</p>
-    </header>
-
-    <main>
-      <div class="card">
-        <p><strong>Contact us</strong></p>
-        <p>Email <a href="mailto:llenyador.io@gmail.com?subject=Whodoku%20support">llenyador.io@gmail.com</a>. We
-        reply in English or Spanish; write in your own language if you prefer.</p>
-        <p>To help us, please include your device model, iOS or Android version, the app version (shown in your
-        store's app page), and the case name if your question is about a puzzle.</p>
-        <a class="button" href="mailto:llenyador.io@gmail.com?subject=Whodoku%20support">Email support</a>
+      <div class="hero-body">
+        <p class="eyebrow">Case desk</p>
+        <h1>Support</h1>
+        <p class="lede">Stuck on a case, missing a purchase or found a bug? Answers to common questions are below. If
+        yours isn't there, write to us.</p>
       </div>
+    </div>
+  </div>
 
+  <main class="wrap">
+    <div class="card">
+      <div class="card-head">
+        <span class="badge-icon"><img src="assets/ds_asset_stamp.png" alt=""></span>
+        <h2>Contact us</h2>
+      </div>
+      <p>Email <a href="mailto:llenyador.io@gmail.com?subject=Whodoku%20support">llenyador.io@gmail.com</a>. We reply
+      in English or Spanish; write in your own language if you prefer.</p>
+      <p>To help us, please include your device model, iOS or Android version, the app version (shown on the app's
+      store page), and the case name if your question is about a puzzle.</p>
+      <p><a class="button" href="mailto:llenyador.io@gmail.com?subject=Whodoku%20support">Email support</a></p>
+    </div>
+
+    <div class="section-title">
+      <span class="badge-icon"><span class="icon" style="--src:url(assets/ds_icon_magnifier.png)"></span></span>
       <h2>Playing</h2>
+    </div>
+    <div class="faq-group">
       <details>
         <summary>How does a case work?</summary>
         <p>Each case is a floor plan split into rooms, with a victim and a few suspects. Every suspect gives one
@@ -58,8 +69,13 @@
         <p>A new case every day. You can turn on a daily reminder in <em>Profile</em> to get one notification when
         it opens.</p>
       </details>
+    </div>
 
+    <div class="section-title">
+      <span class="badge-icon"><span class="icon" style="--src:url(assets/ds_icon_shop.png)"></span></span>
       <h2>Purchases</h2>
+    </div>
+    <div class="faq-group">
       <details>
         <summary>How do I restore my purchases?</summary>
         <p>Open the <em>Store</em> or <em>Profile</em> and tap <em>Restore purchases</em>, signed in with the same
@@ -85,20 +101,23 @@
         <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. On Android, follow
         <a href="https://support.google.com/googleplay/answer/2479637">Google Play's refund help</a>.</p>
       </details>
+    </div>
 
-      <h2>Ads</h2>
+    <div class="section-title">
+      <span class="badge-icon"><span class="icon" style="--src:url(assets/ds_icon_calendar.png)"></span></span>
+      <h2>Ads, progress and devices</h2>
+    </div>
+    <div class="faq-group">
       <details>
         <summary>Does the game show ads?</summary>
         <p>Only if you ask for one. In the <em>Store</em> you can watch a short video to earn coins, a few times a
         day. There are no banners and no ads between cases.</p>
       </details>
       <details>
-        <summary>"No ad available right now."</summary>
+        <summary>It says "No ad available right now."</summary>
         <p>Ads aren't always available, especially offline or after you declined ad consent. Try again later;
         nothing else in the game depends on ads.</p>
       </details>
-
-      <h2>Progress and devices</h2>
       <details>
         <summary>Is my progress saved if I change phones?</summary>
         <p>Your progress is stored on your device and has no account. It moves to a new device when you restore it
@@ -109,20 +128,25 @@
         <p>Yes. Cases, hints and progress all work offline. The Store, ads and new Daily cases need a
         connection.</p>
       </details>
+    </div>
 
+    <div class="section-title">
+      <span class="badge-icon"><span class="icon" style="--src:url(assets/ds_icon_fingerprint.png)"></span></span>
       <h2>Privacy</h2>
+    </div>
+    <div class="faq-group">
       <details>
         <summary>What data does the app collect?</summary>
         <p>No account and no personal details. Anonymous game statistics are sent only while <em>Share anonymous
         statistics</em> is on, and you can turn it off in <em>Profile</em>. Full details are in the
         <a href="privacy.html">Privacy Policy</a>.</p>
       </details>
-    </main>
+    </div>
+  </main>
 
-    <footer>
-      © 2026 Aitor Salvador · <a href="privacy.html">Privacy Policy</a> · This page applies to every language
-      version of the app.
-    </footer>
-  </div>
+  <footer class="wrap">
+    © 2026 Aitor Salvador · <a href="privacy.html">Privacy Policy</a> · This page applies to every language
+    version of the app.
+  </footer>
 </body>
 </html>

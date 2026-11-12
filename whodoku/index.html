@@ -5,31 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Murder Sudoku: Whodoku</title>
   <meta name="description" content="Whodoku: a murder mystery logic puzzle for iOS and Android.">
+  <meta name="theme-color" content="#8f3a48">
   <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="shell">
-    <nav>
-      <a class="brand" href="./"><img src="icon.png" alt="">Whodoku</a>
-      <div class="links">
-        <a href="support.html">Support</a>
-        <a href="privacy.html">Privacy</a>
+  <div class="hero">
+    <div class="wrap">
+      <div class="topbar">
+        <a class="brand" href="./"><img src="icon.png" alt="">Whodoku</a>
+        <nav class="tabs" aria-label="Pages">
+          <a class="tab" href="support.html">Support</a>
+          <a class="tab" href="privacy.html">Privacy</a>
+        </nav>
       </div>
-    </nav>
-    <header>
-      <p class="eyebrow">Murder Sudoku</p>
-      <h1>Whodoku</h1>
-      <p class="lede">A body. A handful of suspects. One clue each. Place every suspect on the floor plan and the
-      killer reveals themselves. Every case has exactly one solution, reached by pure deduction.</p>
-    </header>
-    <main>
-      <div class="card">
-        <p><a href="support.html">Support and FAQ</a></p>
-        <p><a href="privacy.html">Privacy Policy</a></p>
+      <div class="hero-body split">
+        <div>
+          <p class="eyebrow">Murder Sudoku</p>
+          <h1>Sudoku, but make it murder</h1>
+          <p class="lede">A body. A handful of suspects. One clue each. Place every suspect on the floor plan and the
+          killer reveals themselves. Every case has exactly one solution, reached by pure deduction.</p>
+          <div class="stamps">
+            <span class="stamp">No guessing</span>
+            <span class="stamp">No luck</span>
+            <span class="stamp">One solution</span>
+          </div>
+        </div>
+        <div class="shot"><img src="assets/screenshot-case.jpg" alt="A Whodoku case: a floor plan with rooms, suspects and a clue" width="414" height="900"></div>
       </div>
-    </main>
-    <footer>© 2026 Aitor Salvador</footer>
+    </div>
   </div>
+
+  <main class="wrap">
+    <div class="links-grid">
+      <a class="card link-card" href="support.html">
+        <span class="badge-icon"><span class="icon" style="--src:url(assets/ds_icon_magnifier.png)"></span></span>
+        <span><strong>Support</strong><p>Questions, purchases and contact.</p></span>
+      </a>
+      <a class="card link-card" href="privacy.html">
+        <span class="badge-icon"><span class="icon" style="--src:url(assets/ds_icon_fingerprint.png)"></span></span>
+        <span><strong>Privacy Policy</strong><p>What the app handles, and your choices.</p></span>
+      </a>
+    </div>
+  </main>
+
+  <footer class="wrap">© 2026 Aitor Salvador · <a href="support.html">Support</a> · <a href="privacy.html">Privacy</a></footer>
 </body>
 </html>
