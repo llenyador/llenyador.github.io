@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>iM3U Cloud Player Support</title>
+  <meta name="description" content="Help and contact for iM3U Cloud Player on iPhone, iPad and Mac.">
+  <meta name="theme-color" content="#191919">
+  <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+  <div class="hero">
+    <div class="wrap">
+      <div class="topbar">
+        <a class="brand" href="./"><img src="icon.png" alt="">iM3U Cloud Player</a>
+        <nav class="tabs" aria-label="Pages">
+          <a class="tab" href="support.html" aria-current="page">Support</a>
+          <a class="tab" href="privacy.html">Privacy</a>
+        </nav>
+      </div>
+      <div class="hero-body">
+        <p class="eyebrow">Help center</p>
+        <h1>Support</h1>
+        <p class="lede">Can't add a playlist, a channel won't play or a purchase is missing? Answers to common
+        questions are below. If yours isn't there, write to us.</p>
+      </div>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <div class="card">
+      <div class="card-head">
+        <span class="badge-icon peach"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+        <h2>Contact us</h2>
+      </div>
+      <p>Email <a href="mailto:llenyador.io@gmail.com?subject=iM3U%20Cloud%20Player%20support">llenyador.io@gmail.com</a>.
+      We reply in English or Spanish; write in your own language if you prefer.</p>
+      <p>To help us, please include your device model, iOS, iPadOS or macOS version, the app version (shown at the
+      bottom of <em>Settings</em>) and what you were doing when the problem happened. Please <strong>don't send your
+      playlist link</strong> if it contains your provider username or password.</p>
+      <p><a class="button" href="mailto:llenyador.io@gmail.com?subject=iM3U%20Cloud%20Player%20support">Email support</a></p>
+    </div>
+
+    <div class="section-title">
+      <span class="badge-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg></span>
+      <h2>Playlists</h2>
+    </div>
+    <div class="faq-group">
+      <details>
+        <summary>What do I need to start?</summary>
+        <p>An M3U playlist link, usually given to you by your IPTV provider or one you create yourself. iM3U Cloud
+        Player is a player only: it does not provide, sell or include any channels or media content.</p>
+      </details>
+      <details>
+        <summary>How do I add a playlist?</summary>
+        <ol>
+          <li>On the home screen, tap <em>Add playlist</em>.</li>
+          <li>Give it a name and paste the playlist link (it usually ends in <code>.m3u</code> or <code>.m3u8</code>,
+          or contains <code>type=m3u</code>).</li>
+          <li>Accept the content disclaimer and tap <em>Create list</em>.</li>
+        </ol>
+      </details>
+      <details>
+        <summary>"URL is not a valid M3U file" or "Could not get contents of url".</summary>
+        <ul>
+          <li>Open the link in Safari: it should download or show a text file that starts with
+          <code>#EXTM3U</code>. If it shows a web page or an error, the link is wrong or has expired.</li>
+          <li>Many providers' links expire or are limited to a number of devices. Ask your provider for a fresh
+          link.</li>
+          <li>Check your connection and try again.</li>
+        </ul>
+      </details>
+      <details>
+        <summary>How do I refresh or edit a playlist?</summary>
+        <p>On the home screen, tap <em>Edit</em> and choose the playlist to change its name, image or link. Saving it
+        downloads the playlist again. To free space, use <em>Settings › Clear cache</em>; your playlists stay in
+        iCloud.</p>
+      </details>
+    </div>
+
+    <div class="section-title">
+      <span class="badge-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/><path d="m10 8 5 2.5-5 2.5z"/></svg></span>
+      <h2>Playback, TV guide and Chromecast</h2>
+    </div>
+    <div class="faq-group">
+      <details>
+        <summary>A channel doesn't play or keeps buffering.</summary>
+        <ul>
+          <li>Channels are streamed directly from your provider's servers, so most playback problems come from the
+          stream itself. Try another channel from the same playlist; if none play, contact your provider.</li>
+          <li>Try a faster or different network (Wi-Fi instead of mobile data, or the other way round).</li>
+          <li>Close the player and open the channel again.</li>
+        </ul>
+      </details>
+      <details>
+        <summary>Why is there no TV guide for my channels?</summary>
+        <p>The guide (EPG) comes from your playlist. If the playlist includes a guide link (<code>url-tvg</code> or
+        <code>x-tvg-url</code> in its first line), the app downloads it and shows what's on now and next. If you see
+        "This list doesn't include a TV guide", ask your provider for a playlist with EPG.</p>
+      </details>
+      <details>
+        <summary>How do I cast to my TV?</summary>
+        <p>Your iPhone or iPad and your Chromecast or Google TV must be on the same Wi-Fi network. Tap the cast
+        button, choose your device and start a channel. If no device appears, allow <em>Local Network</em> access for
+        the app in <em>Settings › Privacy &amp; Security › Local Network</em>, then restart the app.</p>
+      </details>
+      <details>
+        <summary>Does it support Picture in Picture?</summary>
+        <p>Yes. While a channel is playing, tap the Picture in Picture button to keep watching in a floating window
+        while you use other apps.</p>
+      </details>
+    </div>
+
+    <div class="section-title">
+      <span class="badge-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19a4.5 4.5 0 1 0-1.4-8.8A6 6 0 0 0 4.5 12a3.5 3.5 0 0 0 .5 7z"/></svg></span>
+      <h2>iCloud, lists and devices</h2>
+    </div>
+    <div class="faq-group">
+      <details>
+        <summary>"An iCloud account is required to continue".</summary>
+        <p>The app has no sign-up of its own: it stores your playlists, lists, favorites and recents in your own
+        iCloud. If you are signed in and still see this message:</p>
+        <ol>
+          <li>Open <em>Settings › [your name] › iCloud</em> and make sure iCloud Drive is on.</li>
+          <li>If it still fails, sign out of iCloud and sign in again, then reopen the app.</li>
+          <li>Check that you have a working internet connection the first time you open the app.</li>
+        </ol>
+      </details>
+      <details>
+        <summary>How do I get my playlists on another device?</summary>
+        <p>Sign in with the same Apple Account on the other iPhone, iPad or Mac and open the app. Your playlists,
+        favorites, recents and custom lists sync through iCloud.</p>
+      </details>
+      <details>
+        <summary>How do I save channels to a list?</summary>
+        <p>Tap the save button on a channel's row and pick <em>Favorites</em> or one of your custom lists.
+        Channels you watch appear in <em>Recents</em> automatically.</p>
+      </details>
+    </div>
+
+    <div class="section-title">
+      <span class="badge-icon peach"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 2 3 6.5 7 .9-5.1 4.8 1.3 6.9L12 17.8 5.8 21.1l1.3-6.9L2 9.4l7-.9z"/></svg></span>
+      <h2>PRO and purchases</h2>
+    </div>
+    <div class="faq-group">
+      <details>
+        <summary>What does PRO include?</summary>
+        <p>The free version has every player feature. PRO removes ads and lets you create unlimited custom lists
+        with unlimited items (the free version allows 1 custom list with up to 5 items).</p>
+      </details>
+      <details>
+        <summary>How do I restore my PRO subscription?</summary>
+        <p>Open <em>Settings › Upgrade to PRO</em> and tap <em>Restore</em>, signed in with the same Apple Account you
+        subscribed with.</p>
+      </details>
+      <details>
+        <summary>How do I cancel my subscription?</summary>
+        <p>PRO renews automatically until you cancel it. Cancel at least 24 hours before the renewal date from
+        <em>Settings › Manage your subscriptions</em> in the app, or from
+        <a href="https://apps.apple.com/account/subscriptions">your Apple subscriptions</a>. Deleting the app does
+        not cancel it.</p>
+      </details>
+      <details>
+        <summary>How do I get a refund?</summary>
+        <p>Payments are handled by Apple. Request a refund at
+        <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+      </details>
+    </div>
+
+    <div class="section-title">
+      <span class="badge-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+      <h2>Content and privacy</h2>
+    </div>
+    <div class="faq-group">
+      <details>
+        <summary>Do you provide channels or playlists?</summary>
+        <p>No. iM3U Cloud Player does not provide or include any media content and is not affiliated with any
+        content provider. You are responsible for the playlists you add, and we do not endorse streaming content
+        you are not authorized to watch.</p>
+      </details>
+      <details>
+        <summary>What data does the app collect?</summary>
+        <p>Your playlists live in your own private iCloud, which we can't read. The app uses Google Firebase for
+        usage statistics and crash reports. Full details are in the <a href="privacy.html">Privacy Policy</a>.</p>
+      </details>
+    </div>
+  </main>
+
+  <footer class="wrap">
+    © 2026 Aitor Salvador · <a href="privacy.html">Privacy Policy</a> · This page applies to every language
+    version of the app.
+  </footer>
+</body>
+</html>
